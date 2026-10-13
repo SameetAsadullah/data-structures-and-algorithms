@@ -15,4 +15,4 @@
 | `graphs/dijkstra` | `Dijkstra-Algorithm-Implementation` |
 | `applications/bracket-validation` | `Check-Curly-Brackets-Using-Stack` |
 
-Clean snapshots are imported because the original histories contain large generated IDE/build artifacts. Full original histories remain preserved in their source repositories.
+Clean snapshots are imported because the original histories contain large generated IDE/build artifacts. Full original histories are preserved in verified archival mirrors, with authorship dates retained in the account's private work log.
