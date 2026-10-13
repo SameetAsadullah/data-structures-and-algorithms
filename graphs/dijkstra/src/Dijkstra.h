@@ -87,7 +87,7 @@ public:
 
 	void insertVertex(T Vertex) {
 		if (vertices == 0) {
-			List<T> newList;
+			List<T, U> newList;
 			adjList.insert(newList);
 			adjList[0].setVertex(Vertex);
 			vertices++;
@@ -101,7 +101,7 @@ public:
 				}
 			}
 
-			List<T> newList;
+			List<T, U> newList;
 			adjList.insert(newList);
 			adjList[i].setVertex(Vertex);
 			vertices++;
