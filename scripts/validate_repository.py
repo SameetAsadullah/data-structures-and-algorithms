@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Validate repository structure and syntax-check each C++ exercise."""
+"""Validate repository structure and syntax-check each C++ implementation."""
 
 from __future__ import annotations
 
@@ -9,7 +9,7 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
-EXERCISES = (
+IMPLEMENTATIONS = (
     "linear/array-list",
     "linear/singly-linked-list",
     "linear/doubly-linked-list",
@@ -35,7 +35,7 @@ def tracked_files() -> list[Path]:
 
 
 def validate_layout(errors: list[str]) -> None:
-    for relative in EXERCISES:
+    for relative in IMPLEMENTATIONS:
         directory = ROOT / relative
         if not (directory / "README.md").is_file():
             errors.append(f"missing README: {relative}")
@@ -55,7 +55,7 @@ def validate_cpp(errors: list[str]) -> None:
         errors.append("no C++ compiler found")
         return
 
-    for relative in EXERCISES:
+    for relative in IMPLEMENTATIONS:
         source = ROOT / relative / "src" / "main.cpp"
         result = subprocess.run(
             [compiler, "-std=c++17", "-fsyntax-only", str(source)],
@@ -79,7 +79,7 @@ def main() -> int:
             print(f"- {error}")
         return 1
 
-    print(f"Validated {len(EXERCISES)} C++ exercises.")
+    print(f"Validated {len(IMPLEMENTATIONS)} C++ implementations.")
     return 0
 
 

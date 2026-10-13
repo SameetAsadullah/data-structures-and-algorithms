@@ -31,16 +31,16 @@ trees/         Search trees and balanced trees
 
 Each directory retains the original project README and source layout. Generated executables, compiler output, and Visual Studio database files are excluded.
 
-## Building an exercise
+## Building an implementation
 
-The original Visual Studio solution and project files are retained. The source can also be compiled with a C++17 compiler from an exercise's `src` directory:
+The original Visual Studio solution and project files are retained. The source can also be compiled with a C++17 compiler from an implementation's `src` directory:
 
 ```bash
-c++ -std=c++17 main.cpp -o demo
-./demo
+c++ -std=c++17 main.cpp -o program
+./program
 ```
 
-The automated repository check performs syntax compilation for every `main.cpp`. Warnings from the original learning implementations are reported without rewriting their design.
+The automated repository check performs syntax compilation for every `main.cpp`. Warnings from the original implementations are reported without rewriting their design.
 
 ## Provenance and licensing
 
