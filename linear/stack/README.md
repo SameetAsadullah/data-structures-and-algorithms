@@ -1,7 +1,7 @@
 <h1 align="center">Stack Implementation</h1>
 
 ### Description
-My own `Templatized C++ Implementation` of Stack using `Microsoft Visual Studio.`
+A templated C++ stack implementation with explicit storage and LIFO operations.
 
 ### Functions
 - isEmpty()

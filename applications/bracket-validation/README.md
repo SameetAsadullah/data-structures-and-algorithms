@@ -1,7 +1,7 @@
 <h1 align="center">Check Curly Brackets Using Stack</h1>
 
 ### Description
-A simple `C++ Code` to validate curly brackets of given code using `Stack.`
+A C++ bracket validator that uses a stack to detect balanced curly-brace structure in source text.
 
 ### Manual
 - Place the code you want to validate in a `txt file`.

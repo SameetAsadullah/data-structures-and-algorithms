@@ -1,7 +1,7 @@
 <h1 align="center">ArrayList Implementation</h1>
 
 ### Description
-My own `Templatized C++ Implementation` of ArrayList using `Microsoft Visual Studio.`
+A templated C++ array-list implementation backed by manually managed contiguous storage.
 
 ### Functions
 - getSize()

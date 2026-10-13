@@ -1,8 +1,8 @@
 # Data Structures and Algorithms in C++
 
-A curated collection of C++ implementations developed while learning core data structures, graph representations, traversal, and shortest-path algorithms.
+A curated C++ collection spanning linear containers, search trees, graph representations, traversal, and shortest-path algorithms.
 
-The implementation code remains close to the original projects. This repository consolidates the work, removes generated Visual Studio artifacts, and provides a single map of the concepts covered.
+The collection keeps the implementation code close to its original design while removing generated build artifacts and presenting a consistent structure across modules.
 
 ## Contents
 
@@ -23,17 +23,17 @@ The implementation code remains close to the original projects. This repository 
 ## Repository layout
 
 ```text
-applications/  Small uses of the implemented structures
+applications/  Applied uses of the implemented structures
 graphs/        Graph representations and algorithms
 linear/        Sequential and linked containers
 trees/         Search trees and balanced trees
 ```
 
-Each directory retains the original project README and source layout. Generated executables, compiler output, and Visual Studio database files are excluded.
+Each directory retains its implementation-specific README and source layout. Generated executables, compiler output, and IDE caches are excluded.
 
 ## Building an implementation
 
-The original Visual Studio solution and project files are retained. The source can also be compiled with a C++17 compiler from an implementation's `src` directory:
+Each implementation can be compiled with a C++17 compiler from its `src` directory:
 
 ```bash
 c++ -std=c++17 main.cpp -o program

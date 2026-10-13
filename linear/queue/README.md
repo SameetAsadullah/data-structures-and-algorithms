@@ -1,7 +1,7 @@
 <h1 align="center">Queue Implementation</h1>
 
 ### Description
-My own `Templatized C++ Implementation` of Queue using `Microsoft Visual Studio.`
+A templated C++ queue implementation with explicit storage and FIFO operations.
 
 ### Functions
 - getLength()

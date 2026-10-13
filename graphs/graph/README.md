@@ -1,7 +1,7 @@
 <h1 align="center">Graph Implementation</h1>
 
 ### Description
-My own `Templatized C++ Implementation` of Graph and its `Different Traversals` i.e, BFS, DFS using Microsoft Visual Studio.
+A templated C++ graph implementation with breadth-first and depth-first traversal.
 
 ### Functions
 - insertEdge()

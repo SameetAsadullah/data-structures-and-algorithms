@@ -1,7 +1,7 @@
 <h1 align="center">Vector Implementation</h1>
 
 ### Description
-My own `Templatized C++ Implementation` of Vector using `Microsoft Visual Studio.`
+A templated C++ dynamic-array implementation with manual capacity and element management.
 
 ### Functions
 - Size()
