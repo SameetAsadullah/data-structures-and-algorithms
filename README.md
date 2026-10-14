@@ -1,8 +1,8 @@
-# Data Structures and Algorithms in C++
+# Struct Graph
 
-A curated C++ collection spanning linear containers, search trees, graph representations, traversal, and shortest-path algorithms.
+C++ implementations of linear containers, search trees, graph representations, traversal, and shortest-path algorithms.
 
-The collection keeps the implementation code close to its original design while removing generated build artifacts and presenting a consistent structure across modules.
+The modules use a consistent source layout and automated C++17 syntax checks. Generated build artifacts are excluded from version control.
 
 ## Contents
 
@@ -18,7 +18,7 @@ The collection keeps the implementation code close to its original design while 
 - Templated containers where present in the original work
 - Manual memory management and pointer-based structures
 - Common traversal and mutation operations
-- Progressive implementation from linear structures to trees and graphs
+- Operations on linear structures, trees, and graphs
 
 ## Repository layout
 
@@ -29,7 +29,7 @@ linear/        Sequential and linked containers
 trees/         Search trees and balanced trees
 ```
 
-Each directory retains its implementation-specific README and source layout. Generated executables, compiler output, and IDE caches are excluded.
+Each directory includes implementation-specific usage guidance and source. Generated executables, compiler output, and IDE caches are excluded.
 
 ## Building an implementation
 
@@ -40,8 +40,8 @@ c++ -std=c++17 main.cpp -o program
 ./program
 ```
 
-The automated repository check performs syntax compilation for every `main.cpp`. Warnings from the original implementations are reported without rewriting their design.
+The automated repository check performs syntax compilation for every `main.cpp`. Compiler warnings are reported without altering runtime behavior.
 
 ## Provenance and licensing
 
-See [PROVENANCE.md](PROVENANCE.md) for the source mapping. The original repositories did not declare licenses, so this consolidated collection does not broaden reuse permissions.
+See [PROVENANCE.md](PROVENANCE.md) for source history and licensing. No repository-wide open-source license is declared.
